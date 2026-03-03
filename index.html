@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Steven Universe 💎</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(180deg, #ffd6e8, #d6f0ff);
+      color: #333;
+    }
+
+    header {
+      background: #ff9ecf;
+      padding: 25px 15px;
+      text-align: center;
+      color: white;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2em;
+    }
+
+    header p {
+      font-size: 1em;
+    }
+
+    nav {
+      background: #b388ff;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 10px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      margin: 5px 10px;
+      font-size: 0.95em;
+    }
+
+    section {
+      padding: 20px 15px;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 15px;
+    }
+
+    .card {
+      background: white;
+      border-radius: 15px;
+      padding: 20px;
+      margin-bottom: 20px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    }
+
+    .characters {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 15px;
+    }
+
+    footer {
+      background: #6a5acd;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      font-size: 0.9em;
+    }
+
+    /* 📱 AJUSTES ESPECÍFICOS PARA MÓVIL */
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 1.7em;
+      }
+
+      nav {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      nav a {
+        padding: 8px 0;
+        font-size: 1em;
+      }
+
+      section {
+        padding: 15px 10px;
+      }
+
+      .characters {
+        grid-template-columns: 1fr;
+      }
+
+      .card {
+        padding: 15px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>💎 Steven Universe 💎</h1>
+  <p>Amor, identidad y magia de las Gemas</p>
+</header>
+
+<nav>
+  <a href="#inicio">Inicio</a>
+  <a href="#personajes">Personajes</a>
+  <a href="#comunidad">Comunidad</a>
+</nav>
+
+<section id="inicio">
+  <div class="card">
+    <h2>Bienvenid@</h2>
+    <p>
+      Este es un espacio seguro para fans de Steven Universe.
+      Aquí celebramos el amor propio, las emociones y la diversidad 🌈
+    </p>
+  </div>
+</section>
+
+<section id="personajes">
+  <h2>Personajes</h2>
+  <div class="characters">
+    <div class="card">
+      <h3>Steven</h3>
+      <p>Mitad humano, mitad gema, con un corazón gigante.</p>
+    </div>
+    <div class="card">
+      <h3>Garnet</h3>
+      <p>La fuerza del amor y la estabilidad.</p>
+    </div>
+    <div class="card">
+      <h3>Amethyst</h3>
+      <p>Libre, divertida y auténtica.</p>
+    </div>
+    <div class="card">
+      <h3>Perla</h3>
+      <p>Elegante, protectora y leal.</p>
+    </div>
+  </div>
+</section>
+
+<section id="comunidad">
+  <div class="card">
+    <h2>Comunidad</h2>
+    <p>
+      Comparte fanarts, teorías, roles y mensajes positivos.
+      Este espacio es para expresarte con libertad 💖
+    </p>
+  </div>
+</section>
+
+<footer>
+  <p>✨ Hecho con amor por la comunidad de Steven Universe ✨</p>
+</footer>
+
+</body>
+</html>
