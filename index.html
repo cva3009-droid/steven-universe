@@ -6,6 +6,38 @@
   <title>Steven Universe 💎</title>
 
   <style>
+    /* Colores pastel por sección */
+.seccion-gemas {
+  background: #f8f3ff;
+}
+
+.seccion-humanos {
+  background: #fff5ec;
+}
+
+.seccion-fusiones {
+  background: #f0fbff;
+}
+
+.seccion-diamantes {
+  background: #fff0f6;
+}
+
+/* Ajustes generales */
+section {
+  padding: 30px 15px;
+}
+
+h2 {
+  text-align: center;
+  color: #6a5acd;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 15px;
+  margin-bottom: 10px;
+}
     * {
       box-sizing: border-box;
     }
@@ -109,11 +141,151 @@
       .card {
         padding: 15px;
       }
+      /* Botones principales */
+.btn {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 14px 24px;
+  background: linear-gradient(135deg, #ffb3d9, #cdb4ff);
+  color: #fff;
+  text-decoration: none;
+  border-radius: 30px;
+  font-weight: bold;
+  text-align: center;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+      /* Formularios */
+form {
+  margin-top: 20px;
+}
+
+form h3 {
+  margin-top: 20px;
+  color: #6a5acd;
+}
+
+form input,
+form select,
+form textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 14px;
+  border-radius: 12px;
+  border: 1px solid #ddd;
+  font-size: 0.95em;
+  background: #fffafc;
+}
+
+form textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+form button {
+  width: 100%;
+  padding: 14px;
+  background: linear-gradient(135deg, #b8c0ff, #ffd6e8);
+  color: #333;
+  border: none;
+  border-radius: 25px;
+  font-weight: bold;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+form button:hover {
+  background: linear-gradient(135deg, #ffd6e8, #b8c0ff);
+}
+      /* Imágenes de personajes */
+.card img {
+  width: 100%;
+  height: auto;
+  border-radius: 16px;
+  margin-bottom: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.12);
+}
     }
   </style>
 </head>
 
 <body>
+  <section id="personajes" class="seccion-gemas">
+  <h2>💎 Personajes</h2>
+
+  <div class="characters">
+    <div class="card">
+      <img src="https://i.imgur.com/TuPZJmA.png" alt="Perla">
+      <h3>Perla</h3>
+    </div>
+
+    <div class="card">
+      <img src="https://i.imgur.com/2VZQwGZ.png" alt="Rose Cuarzo">
+      <h3>Rose Cuarzo</h3>
+    </div>
+
+    <div class="card">
+      <img src="https://i.imgur.com/8jKZpVn.png" alt="Amatista">
+      <h3>Amatista</h3>
+    </div>
+
+    <div class="card">
+      <img src="https://i.imgur.com/m3tXfQm.png" alt="Garnet">
+      <h3>Garnet</h3>
+    </div>
+
+    <div class="card">
+      <img src="https://i.imgur.com/y3uK9Nc.png" alt="Lapis Lazuli">
+      <h3>Lapis Lazuli</h3>
+    </div>
+
+    <div class="card">
+      <img src="https://i.imgur.com/1l2nE9U.png" alt="Diamante Rosa">
+      <h3>Diamante Rosa</h3>
+    </div>
+  </div>
+    <section id="comunidad">
+  <div class="card">
+    <h2>💖 Únete a nuestra comunidad</h2>
+
+    <a
+      href="https://chat.whatsapp.com/LthfKl2CJM2EA2pRoueRYn?mode=gi_t"
+      target="_blank"
+      class="btn">
+      💬 Entrar al grupo de WhatsApp
+    </a>
+  </div>
+</section>
+    <section id="ficha">
+  <div class="card">
+    <h2>𖢻💎✩ Ficha de Presentación 🔮</h2>
+
+    <form action="https://formsubmit.co/cva.3009@gmail.com" method="POST">
+      <input type="hidden" name="_subject" value="Nueva ficha - Comunidad Steven Universe 💎">
+      <input type="hidden" name="_captcha" value="false">
+
+      <h3>⭐ Dentro del rol ⭐</h3>
+      <input type="text" name="Personaje" placeholder="Personaje" required>
+      <input type="text" name="Edad en rol" placeholder="Edad" required>
+      <input type="text" name="Género" placeholder="Género">
+      <input type="text" name="Personaje buscado" placeholder="Personaje buscado">
+
+      <h3>🌷 Fuera del rol 🌷</h3>
+      <input type="number" name="Edad real" placeholder="Edad" required>
+      <input type="text" name="País" placeholder="País">
+      <input type="date" name="Fecha de cumpleaños">
+
+      <button type="submit">Enviar ficha 💌</button>
+    </form>
+  </div>
+</section>
+</section>
 
 <header>
   <h1>💎 Steven Universe 💎</h1>
